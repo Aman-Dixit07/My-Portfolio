@@ -87,7 +87,7 @@ const Work = () => {
                   className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
                 />
               </div>
-              <div className="lg:p-8 p-6">
+              <div className="lg:p-6 p-4">
                 <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
                   {selectedProject.title}
                 </h3>
@@ -95,7 +95,7 @@ const Work = () => {
                   {selectedProject.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-2 mb-3">
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}

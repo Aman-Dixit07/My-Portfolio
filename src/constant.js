@@ -30,6 +30,9 @@ import zodlogo from "./assets/tech_logo/zod.png";
 import zustandlogo from "./assets/tech_logo/zustand.svg";
 import daisyuilogo from "./assets/tech_logo/daisyui.png";
 import renderlogo from "./assets/tech_logo/Render.jpg";
+import socketlogo from "./assets/tech_logo/socket.svg";
+import supabaselogo from "./assets/tech_logo/supabase.png";
+import clerklogo from "./assets/tech_logo/clerk.png";
 
 // Experience Section Logo's
 import etechlogo from "./assets/company_logo/etechlogo.jpeg";
@@ -41,6 +44,8 @@ import jainlogo from "./assets/education_logo/jgi.png";
 
 // Project Section Logo's
 import dinedashlogo from "./assets/work_logo/DineDash.png";
+import chatuplogo from "./assets/work_logo/ChatUp.png";
+import trelloClone from "./assets/work_logo/trelloClone.png";
 
 export const SkillsInfo = [
   {
@@ -72,6 +77,9 @@ export const SkillsInfo = [
       { name: "PostgreSQL", logo: postgreLogo },
       { name: "Appwrite", logo: appwritelogo },
       //{ name: "Redis", logo: redislogo },
+      { name: "Socket.io", logo: socketlogo },
+      { name: "Supabase", logo: supabaselogo },
+      { name: "Clerk", logo: clerklogo },
     ],
   },
   {
@@ -177,5 +185,25 @@ export const projects = [
     tags: ["React Js", "Express", "Typescript", "Stripe", "Zustand", "MongoDb"],
     github: "https://github.com/Aman-Dixit07/DineDash-official",
     webapp: "https://dinedash-official.onrender.com/",
+  },
+  {
+    id: 1,
+    title: "ChatUp - Real Time Chat Application",
+    description:
+      "This MERN stack and Socket.io powered application delivers real-time messaging with a fully responsive design, customizable themes, and robust tools like Zustand and Cloudinary for a superior chat experience.I developed this project specifically to deepen my understanding and practice with the MERN stack and Socket.io",
+    image: chatuplogo,
+    tags: ["React Js", "Express", "Node Js", "Socket.io", "Zustand", "MongoDb"],
+    github: "https://github.com/Aman-Dixit07/Chat-App",
+    webapp: "https://chat-app-p069.onrender.com/",
+  },
+  {
+    id: 2,
+    title: "Trello Clone - Advanced Task Management & Team Collaboration",
+    description:
+      "Trello is an advanced Trello-inspired task management and collaboration tool designed to help teams move work forward seamlessly. It provides drag-and-drop boards, real-time updates, and enterprise-level authentication for secure collaboration. With support for membership plans, billing options, and smooth payments.Built with Next.js, TypeScript, Supabase, Clerk, ShadCn, React DnD, and deployed on Vercel, it delivers lightning-fast performance and a modern, intuitive UI.",
+    image: trelloClone,
+    tags: ["Next Js", "Supabase", "React Js", "TypeScript", "Clerk", "ShadCn"],
+    github: "https://github.com/Aman-Dixit07/Trello-Clone",
+    webapp: "https://trello-clone-omega-orcin.vercel.app/",
   },
 ];
