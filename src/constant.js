@@ -46,6 +46,7 @@ import jainlogo from "./assets/education_logo/jgi.png";
 import dinedashlogo from "./assets/work_logo/DineDash.png";
 import chatuplogo from "./assets/work_logo/ChatUp.png";
 import trelloClone from "./assets/work_logo/trelloClone.png";
+import chatify from "./assets/work_logo/Chatify.png";
 
 export const SkillsInfo = [
   {
@@ -188,14 +189,15 @@ export const projects = [
   },
   {
     id: 1,
-    title: "ChatUp - Real Time Chat Application",
+    title: "Chatify - Advanced Real-time Chat App",
     description:
-      "This MERN stack and Socket.io powered application delivers real-time messaging with a fully responsive design, customizable themes, and robust tools like Zustand and Cloudinary for a superior chat experience.I developed this project specifically to deepen my understanding and practice with the MERN stack and Socket.io",
-    image: chatuplogo,
-    tags: ["React Js", "Express", "Node Js", "Socket.io", "Zustand", "MongoDb"],
-    github: "https://github.com/Aman-Dixit07/Chat-App",
-    webapp: "https://chat-app-p069.onrender.com/",
+      "Chatify is a real-time chat application built using the MERN stack and Socket.io, designed to deliver fast, secure, and engaging communication. It features interactive keyboard and notification sounds for an immersive chatting experience, along with image uploads via Cloudinary for smooth media sharing. With Arcjet ensuring app security and Resend Mail handling authentication and email services, Chatify maintains both reliability and performance. The modern and responsive interface, styled with DaisyUI, makes conversations simple, intuitive, and visually appealing — a perfect blend of technology and user experience.",
+    image: chatify,
+    tags: ["Socket io", "MongoDB", "React Js", "Arcjet", "Express", "DaisyUI"],
+    github: "https://github.com/Aman-Dixit07/Chatify",
+    webapp: "https://chatifyy-4ky6.onrender.com/",
   },
+
   {
     id: 2,
     title: "Trello Clone - Advanced Task Management & Team Collaboration",
@@ -205,5 +207,15 @@ export const projects = [
     tags: ["Next Js", "Supabase", "React Js", "TypeScript", "Clerk", "ShadCn"],
     github: "https://github.com/Aman-Dixit07/Trello-Clone",
     webapp: "https://trello-clone-omega-orcin.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "ChatUp - Real Time Chat Application",
+    description:
+      "This MERN stack and Socket.io powered application delivers real-time messaging with a fully responsive design, customizable themes, and robust tools like Zustand and Cloudinary for a superior chat experience.I developed this project specifically to deepen my understanding and practice with the MERN stack and Socket.io",
+    image: chatuplogo,
+    tags: ["React Js", "Express", "Node Js", "Socket.io", "Zustand", "MongoDb"],
+    github: "https://github.com/Aman-Dixit07/Chat-App",
+    webapp: "https://chat-app-p069.onrender.com/",
   },
 ];
