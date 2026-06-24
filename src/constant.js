@@ -33,7 +33,7 @@ import renderlogo from "./assets/tech_logo/Render.jpg";
 import socketlogo from "./assets/tech_logo/socket.svg";
 import supabaselogo from "./assets/tech_logo/supabase.png";
 import clerklogo from "./assets/tech_logo/clerk.png";
-import langGraphlogo from "./assets/tech_logo/langGraph.png";
+import langGraphlogo from "./assets/tech_logo/langgraph.png";
 import flutterlogo from "./assets/tech_logo/flutter.png";
 import expologo from "./assets/tech_logo/expo.png";
 import gcplogo from "./assets/tech_logo/gcp.png";
