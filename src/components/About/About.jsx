@@ -9,6 +9,8 @@ const About = () => {
     "Backend Developer",
     "Coder",
     "NextJs Developer",
+    "Software Developer",
+    "Mobile App Developer",
   ];
 
   return (
@@ -56,11 +58,14 @@ const About = () => {
           </h3>
           {/*About Me Paragraph*/}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 1 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            I am a software developer with 2+ years of experience engineering
+            robust web and cross-platform mobile applications. Skilled in both
+            frontend interfaces and complex backend architectures, I leverage
+            technologies like React, Next.js, Flutter, and Python. From building
+            scalable e-commerce platforms to deploying offline-first AI mobile
+            apps, I thrive on taking projects through the entire development
+            lifecycle to deliver highly efficient, user-centric digital
+            products.
           </p>
 
           {/* Resume Button */}

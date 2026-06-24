@@ -33,9 +33,15 @@ import renderlogo from "./assets/tech_logo/Render.jpg";
 import socketlogo from "./assets/tech_logo/socket.svg";
 import supabaselogo from "./assets/tech_logo/supabase.png";
 import clerklogo from "./assets/tech_logo/clerk.png";
+import langGraphlogo from "./assets/tech_logo/langGraph.png";
+import flutterlogo from "./assets/tech_logo/flutter.png";
+import expologo from "./assets/tech_logo/expo.png";
+import gcplogo from "./assets/tech_logo/gcp.png";
+import playconsolelogo from "./assets/tech_logo/googlePlayConsole.png";
 
 // Experience Section Logo's
 import etechlogo from "./assets/company_logo/etechlogo.jpeg";
+import enappdlogo from "./assets/company_logo/enappd.jpg";
 //import freelancelogo from "./assets/company_logo/freelancelogo.png";
 
 // Education Section Logo's
@@ -66,6 +72,8 @@ export const SkillsInfo = [
       { name: "Zod", logo: zodlogo },
       { name: "Zustand", logo: zustandlogo },
       { name: "Daisyui", logo: daisyuilogo },
+      { name: "Flutter", logo: flutterlogo },
+      { name: "Expo", logo: expologo },
     ],
   },
   {
@@ -81,6 +89,7 @@ export const SkillsInfo = [
       { name: "Socket.io", logo: socketlogo },
       { name: "Supabase", logo: supabaselogo },
       { name: "Clerk", logo: clerklogo },
+      { name: "langGraph", logo: langGraphlogo },
     ],
   },
   {
@@ -102,6 +111,8 @@ export const SkillsInfo = [
       { name: "Vercel", logo: vercelLogo },
       { name: "Netlify", logo: netlifyLogo },
       { name: "Render", logo: renderlogo },
+      { name: "Google Cloud", logo: gcplogo },
+      { name: "Google Play Console", logo: playconsolelogo },
     ],
   },
 ];
@@ -142,6 +153,24 @@ export const experiences = [
       "HTML",
       "CSS",
       "MongoDb",
+    ],
+  },
+  {
+    id: 2,
+    img: enappdlogo,
+    role: "Software Developer",
+    company: "Enappd",
+    date: "Jul 2025 - Present",
+    desc: "Worked as a Software Developer handling both full-stack web and cross-platform mobile projects. Built a reusable white-label app template using React Native, developed offline-first Flutter apps with on-device AI integration, and automated video generation workflows using Python. Also managed the end-to-end deployment and testing of multiple production apps on the Google Play Console.",
+    skills: [
+      "React Native",
+      "Flutter",
+      "Next.js",
+      "Node.js",
+      "Python",
+      "Supabase",
+      "Firebase",
+      "Google Play Console",
     ],
   },
 ];
